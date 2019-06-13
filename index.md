@@ -3,8 +3,7 @@ layout: default
 title: Home
 has_children: false
 has_toc: false
-nav_order: 1
-parent: nil
+nav_order: 0
 permalink: /
 ---
 
