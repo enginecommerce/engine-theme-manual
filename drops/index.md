@@ -256,7 +256,7 @@ Currently internal use only.
 
 #### variant_price_data_json
 
-Currently intermal use only.
+Currently internal use only.
 
 #### variant_image_ids
 
