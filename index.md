@@ -14,25 +14,25 @@ permalink: /
 
 # Sections
 
-## [Getting Started]()
+## [How to Articles](/blog)
+
+Articles written by Engine Experts to give you an advantage in writing Engine Themes.
+
+## [Quick Start Guide](/guides/quick-start)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-## [Quick Guide]()
+## [Liquid Templating Language](https://shopify.github.io/liquid/)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Liquid is an Open Source templating language used by Engine to make it easier for theme developers to build cool sites.
 
-## [Liquid Templating Language]()
+## [Engine Drops](/drops)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-## [Engine Drops]()
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Drops let you access information from your store's database. Some Drops also let you interact with that data via Drop Methods.
 
 ## [Engine Theme API]()
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Coming soon! 🤗
 
 ---
 
