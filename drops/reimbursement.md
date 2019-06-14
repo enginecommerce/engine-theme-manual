@@ -8,7 +8,13 @@ permalink: /drops/reimbursement
 
 {% include page_header.html %}
 
-### reimbursement
+### Drop Attributes
+
+- id
+- display_total
+- exchange_present?
+
+### Drop Methods
 
 #### display_total
 

@@ -8,4 +8,11 @@ permalink: /drops/shipping-rate
 
 {% include page_header.html %}
 
+### Drop Attributes
+
+- display_cost
+- id
+- name
+- price
+
 {% include stub_article.html %}

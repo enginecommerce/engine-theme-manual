@@ -8,4 +8,10 @@ permalink: /drops/country
 
 {% include page_header.html %}
 
+### Drop Attributes
+
+- id
+- name
+- iso
+
 {% include stub_article.html %}

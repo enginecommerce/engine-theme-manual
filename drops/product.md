@@ -8,7 +8,27 @@ permalink: /drops/product
 
 {% include page_header.html %}
 
-### product
+### Drop Attributes
+
+- id
+- brand
+- name
+- slug
+- category
+- description
+- price
+- sku
+- meta_title
+- display_image_url
+- option_menu_data
+- variants_by_option_value
+- is_sellable?
+- product_seo_title
+- taxons
+- gift_card?
+- gift_card
+
+### Drop Methods
 
 The Product Drop allows you to access information regarding a specific product
 from your database. You'd generally use this drop in a product partial.

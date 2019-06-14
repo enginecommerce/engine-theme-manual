@@ -8,4 +8,10 @@ permalink: /drops/menu
 
 {% include page_header.html %}
 
+### Drop Attributes
+
+- id
+- name
+- location
+
 {% include stub_article.html %}

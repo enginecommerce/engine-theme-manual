@@ -8,7 +8,13 @@ permalink: /drops/adjustment
 
 {% include page_header.html %}
 
-### adjustment
+### Drop Attributes
+
+- label
+- amount
+- display_amount
+
+### Drop Methods
 
 #### display_amount
 

@@ -8,4 +8,8 @@ permalink: /drops/gateway
 
 {% include page_header.html %}
 
+### Drop Attributes
+
+- name
+
 {% include stub_article.html %}

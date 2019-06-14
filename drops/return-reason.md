@@ -8,4 +8,11 @@ permalink: /drops/return-reason
 
 {% include page_header.html %}
 
+### Drop Attributes
+
+- id
+- name
+- active
+- mutable
+
 {% include stub_article.html %}

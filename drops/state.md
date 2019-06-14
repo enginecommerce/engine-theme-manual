@@ -8,4 +8,10 @@ permalink: /drops/state
 
 {% include page_header.html %}
 
+### Drop Attributes
+
+- id
+- name
+- abbr
+
 {% include stub_article.html %}

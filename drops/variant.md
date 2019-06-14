@@ -8,7 +8,21 @@ permalink: /drops/variant
 
 {% include page_header.html %}
 
-### variant
+### Drop Attributes
+
+- id
+- in_stock?
+- can_supply?
+- total_on_hand
+- should_track_inventory?
+- sku
+- name
+- options_text
+- options_hash
+- price
+- subscribable
+
+### Drop Methods
 
 #### formatted_price
 

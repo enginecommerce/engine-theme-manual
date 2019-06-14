@@ -8,7 +8,25 @@ permalink: /drops/address
 
 {% include page_header.html %}
 
-### Address
+### Drop Attributes
+
+- id
+- firstname
+- lastname
+- full_name
+- address1
+- address2
+- city
+- state_text
+- state_id
+- zipcode
+- phone
+- country_name
+- country_iso
+- country
+- country_id
+
+### Drop Methods
 
 #### country_name
 

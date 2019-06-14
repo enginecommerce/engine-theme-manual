@@ -8,7 +8,17 @@ permalink: /drops/user
 
 {% include page_header.html %}
 
-### user
+### Drop Attributes
+
+- id
+- email
+- login
+- authentication_token
+- spree_api_key
+- errors
+- reset_password_token
+
+### Drop Methods
 
 #### active_subscriptions
 

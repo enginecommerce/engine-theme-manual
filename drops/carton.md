@@ -8,4 +8,10 @@ permalink: /drops/carton
 
 {% include page_header.html %}
 
+### Drop Attributes
+
+- id
+- tracking
+- tracking_url
+
 {% include stub_article.html %}

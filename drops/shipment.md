@@ -8,7 +8,13 @@ permalink: /drops/shipment-drop
 
 {% include page_header.html %}
 
-### shipment
+### Drop Attributes
+
+- id
+- state
+- number
+
+### Drop Methods
 
 #### variants
 

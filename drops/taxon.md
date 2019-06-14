@@ -8,9 +8,13 @@ permalink: /drops/taxon
 
 {% include page_header.html %}
 
-### Overview
+### Drop Attributes
 
+- name
+- id
+- permalink
 
+### Drop Methods
 
 #### path
 

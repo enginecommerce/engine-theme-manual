@@ -8,7 +8,15 @@ permalink: /drops/payment
 
 {% include page_header.html %}
 
-### payment 
+### Drop Attributes
+
+- id
+- amount
+- state
+- number
+- source_type
+
+### Drop Methods
 
 #### source_name
 

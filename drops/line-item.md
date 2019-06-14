@@ -8,7 +8,18 @@ permalink: /drops/line-item
 
 {% include page_header.html %}
 
-### line item
+### Drop Attributes
+
+- quantity
+- single_money
+- display_amount
+- id
+- name
+- description
+- sku
+- subscription_line_items
+
+### Drop Methods
 
 #### single_money
 

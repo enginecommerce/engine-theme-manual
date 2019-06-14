@@ -12,7 +12,15 @@ permalink: /drops/return-item
   TODO: Clarify how this thing is used.
 {% endcomment %}
 
-### reimbursement
+### Drop Attributes
+
+- id
+- amount
+- reception_status
+- acceptance_status
+- resellable
+
+### Drop Methods
 
 #### display_amount
 

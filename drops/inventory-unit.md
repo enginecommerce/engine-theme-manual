@@ -8,7 +8,13 @@ permalink: /drops/inventory-unit
 
 {% include page_header.html %}
 
-### inventory unit
+### Drop Attributes
+
+- id
+- state
+- pending
+
+### Drop Methods
 
 #### quantity
 

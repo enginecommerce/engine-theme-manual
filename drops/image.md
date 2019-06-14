@@ -8,7 +8,15 @@ permalink: /drops/image
 
 {% include page_header.html %}
 
-### image
+### Drop Attributes
+
+- id
+- thumb_url
+- attachment
+- thumbnail_classes
+- alt
+
+### Drop Methods
 
 #### small_url
 
