@@ -7,3 +7,5 @@ permalink: /drops/sub-menu-item
 ---
 
 {% include page_header.html %}
+
+{% include stub_article.html %}

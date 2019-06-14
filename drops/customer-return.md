@@ -7,3 +7,5 @@ permalink: /drops/customer-return
 ---
 
 {% include page_header.html %}
+
+{% include stub_article.html %}

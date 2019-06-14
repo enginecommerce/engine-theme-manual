@@ -7,3 +7,5 @@ permalink: /drops/virtual-gift-card
 ---
 
 {% include page_header.html %}
+
+{% include stub_article.html %}

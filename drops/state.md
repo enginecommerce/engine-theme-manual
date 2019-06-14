@@ -7,3 +7,5 @@ permalink: /drops/state
 ---
 
 {% include page_header.html %}
+
+{% include stub_article.html %}

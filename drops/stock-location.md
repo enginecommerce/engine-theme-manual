@@ -7,3 +7,5 @@ permalink: /drops/stock-location
 ---
 
 {% include page_header.html %}
+
+{% include stub_article.html %}

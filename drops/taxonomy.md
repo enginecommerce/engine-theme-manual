@@ -7,3 +7,5 @@ permalink: /drops/taxonomy
 ---
 
 {% include page_header.html %}
+
+{% include stub_article.html %}

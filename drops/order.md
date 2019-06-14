@@ -7,3 +7,5 @@ permalink: /drops/gateway/order
 ---
 
 {% include page_header.html %}
+
+{% include stub_article.html %}

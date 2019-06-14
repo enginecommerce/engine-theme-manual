@@ -7,3 +7,5 @@ permalink: /drops/payment-method
 ---
 
 {% include page_header.html %}
+
+{% include stub_article.html %}
