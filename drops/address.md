@@ -21,7 +21,6 @@ Returns a String containing the country's name from an address.
 
 #### country_iso
 
-
 Returns a String containing the country's iso from an address.
 
 ```liquid
