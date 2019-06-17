@@ -4,7 +4,7 @@
 [markdownlint_url]: https://github.com/markdownlint/markdownlint
 [scss_lint_url]: https://github.com/brigade/scss-lint
 
-<img src="./engine-logo.svg" width=350>
+<img src="engine-logo.svg" width=350>
 
 # The Engine Flight Manual
 
