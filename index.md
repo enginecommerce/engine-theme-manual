@@ -3,30 +3,39 @@ layout: default
 title: Home
 has_children: false
 has_toc: false
-nav_order: 1
-parent: nil
+nav_order: 0
 permalink: /
 ---
 
 [license_url]: https://github.com/enginecommerce/flight_manual/blob/master/LICENSE
 [code_of_conduct_link]: /flight_manual/engineering/guides/code-of-conduct.html
 
-{% include page_header.html title="The Engine Flight Manual" subhead="This is how we pilot our ship"%}
+{% include page_header.html title="The Engine Theme Manual" subhead="Developer friendly guide to building awesome ecommerce themes"%}
 
 # Sections
 
-## [Engineering](/engineering/)
+## [How to Articles](/blog)
 
-How to do things, engineering job descriptions, collaboration code of conduct.
+Articles written by Engine Experts to give you an advantage in writing Engine Themes.
 
-## [People](/people/)
+## [Quick Start Guide](/guides/quick-start)
 
-Policies for work hours, time off.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+## [Liquid Templating Language](https://shopify.github.io/liquid/)
+
+Liquid is an Open Source templating language used by Engine to make it easier for theme developers to build cool sites.
+
+## [Engine Drops](/drops)
+
+Drops let you access information from your store's database. Some Drops also let you interact with that data via Drop Methods.
+
+## [Engine Theme API]()
+
+Coming soon! 🤗
 
 ---
 
 ## Thanks
-
-As engineers, we owe a huge debt to several communities of thought and their leaders. Not least among them are [Basecamp](https://m.signalvnoise.com/), [Thoughtbot](https://thoughtbot.com/playbook), [Madriska](https://www.madriska.com/), [Ruby on Rails](https://rubyonrails.org/), [React](https://reactjs.org/), and [Solidus](https://solidus.io/).
 
 This is [MIT-licensed](license_url), open source software that you may clone and modify for your own use, personal or professional. If you find a problem, please consider opening an issue or [making a contribution][code_of_conduct_link].
