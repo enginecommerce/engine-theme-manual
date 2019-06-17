@@ -31,9 +31,9 @@ Returns a String containing the Return Item's total.
 #=> "$20.00"{% endraw %}
 ```
 
-#### potential_reception_transistions 
+#### potential_reception_transistions
 
-#### exchange_variant 
+#### exchange_variant
 
 Returns a Variant Drop that is associated with the Return Item.
 

@@ -44,6 +44,7 @@ Returns a String containing the Payment's last 4 digits.
 {% raw %}{% payment.source_name %}
 #=> "4444"{% endraw %}
 ```
+
 #### is_card?
 
 Returns a Boolean denoting if a Payment source is a credit card.

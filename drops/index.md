@@ -20,11 +20,13 @@ see a list of products that are related to a specific product and display those
 to the user.
 
 With the [Product Drop](#product), that would look like this:
+
 ```liquid
 {% raw %}{% for related_product in product.related_products %}
   <h1>{{related_product.name}}</h1>
 {% endfor %}{% endraw %}
 ```
+
 In this snippet, we are accessing the [related_products property](#related_products) of the
 product drop, which returns an array, and looping over that array with the
 [for]() iteration tag.
