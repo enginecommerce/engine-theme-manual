@@ -3,9 +3,8 @@ layout: default
 title: Quick Start
 has_children: false
 subhead: Quick start guide to editing your first theme for the Engine Ecommerce Platform.
-nav_order: 0
-parent: Guides
-permalink: /guides/quick-start/
+nav_order: 1
+permalink: /quick-start/
 ---
 
 [building_blocks_theme_url]: https://github.com/enginecommerce/building-blocks-theme

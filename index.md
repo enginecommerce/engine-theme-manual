@@ -14,13 +14,13 @@ permalink: /
 
 # Sections
 
-## [How to Articles](/blog)
+## [Engine Theme Guides](/guides)
 
-Articles written by Engine Experts to give you an advantage in writing Engine Themes.
+A comprehensive introduction to building themes on Engine.
 
-## [Quick Start Guide](/guides/quick-start)
+## [Quick Start Guide](/quick-start)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+A 10000' overview of the Engine Theme system. Not recommended for first-time flyers.
 
 ## [Liquid Templating Language](https://shopify.github.io/liquid/)
 
