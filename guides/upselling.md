@@ -27,7 +27,8 @@ We can do this in a new partial called `store/shared/_upsell.liquid`.
 
 Now, we need to include our `upsell.liquid` partial on the cart view. In Engine,
 the cart view lives at `store/order/edit.liquid`. We can add our new partial by
-dropping `{% include 'spree/shared/upsell' %}` somewhere in our cart view.
+dropping `{% raw %}{% include 'spree/shared/upsell' %}{% endraw %}` somewhere in
+our cart view.
 
 The next step is rendering product imagery and a call to action. Thanks to the
 `related_products` method on the [Product Drop](), it's as simple as passing the
