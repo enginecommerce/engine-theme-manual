@@ -1,0 +1,10 @@
+{% assign next_nav_order = page.nav_order | plus: 1 %}
+{% for p in site.pages %}
+{% if p.parent == page.parent %}
+{% if p.nav_order == next_nav_order %}
+<strong>
+  Continue to the next guide: <a href="{{ p.permalink }}">{{ p.title }}</a>
+</strong>
+{% endif %}
+{% endif %}
+{% endfor %}

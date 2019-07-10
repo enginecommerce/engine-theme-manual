@@ -2,7 +2,6 @@
 layout: default
 title: Global Objects
 has_children: false
-nav_order: 1
 parent: Guides
 permalink: /guides/global-objects/
 ---
