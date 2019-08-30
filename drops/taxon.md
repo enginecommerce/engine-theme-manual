@@ -13,6 +13,9 @@ permalink: /drops/taxon
 - name
 - id
 - permalink
+- ancestors
+- children
+- pretty_name
 
 ### Drop Methods
 
