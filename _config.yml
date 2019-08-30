@@ -2,8 +2,9 @@
 title: Engine Theme Manual
 email: info@enginecomerce.com
 description: A complete guide to building themes on the Engine ecommerce platform
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+repo_url: "https://github.com/enginecommerce/engine-theme-manual" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: enginecommerce
 github_username:  enginecommerce
 timezone: America/Chicago
