@@ -205,6 +205,10 @@ Returns a Drop containing a product's variants.
 {17=># @attributes: ... }{% endraw %}
 ```
 
+#### compare_price_at
+
+Currently internal use only. {% comment %}We need to enforce strict QA on Liquid{% endcomment %}
+
 #### display_image_portrait_cropped_large_url
 
 Currently internal use only.

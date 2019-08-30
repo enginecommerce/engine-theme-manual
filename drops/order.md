@@ -108,6 +108,15 @@ Returns a String containing the Order's total.
 #=> "$65.00"{% endraw %}
 ```
 
+#### stripe_token
+
+Returns a String containing the Order's Stripe token.
+
+```liquid
+{% raw %}{{ order.stripe_token }}
+#=> "sometoken"{% endraw %}
+```
+
 #### mail_from_address
 
 Currently internal use only.
@@ -121,6 +130,10 @@ Currently internal use only.
 Currently internal use only.
 
 #### braintree_gateway
+
+Currently internal use only.
+
+#### stripe_payment_method
 
 Currently internal use only.
 
