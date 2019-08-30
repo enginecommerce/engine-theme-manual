@@ -25,7 +25,7 @@ Returns a Boolean denoting the subscription's status.
 
 ```liquid
 {% raw %}{% subscription.active? %}
-#=> true{% endraw %
+#=> true{% endraw %}
 ```
 
 #### braintree_gateway
