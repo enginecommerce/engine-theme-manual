@@ -13,6 +13,9 @@ that are available to you anywhere in your theme.
 
 Generally, these objects will contain data relevant to the current session.
 
+**This documentation is incomplete, please contatct the Engine team if you have
+questions about Global Objects!**
+
 #### header_menu
 
 #### footer_menu
