@@ -1,16 +1,18 @@
 .stub-message {
+  background: rgba(0, 0, 0, 0.03);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  margin: 1.5rem 0;
+  padding: 1rem 1.5em;
+  text-align: center;
 
-  h2,
-  p {
-    text-align: center;
-  }
+  h2 {
+    &:first-child {
+      margin-top: 0;
+      margin-bottom: 1rem
+    }
 
-  p {
-    padding-top: 10px;
-  }
-
-  .iframe-wrapper {
-    display: flex;
-    justify-content: center;
+    & + p {
+      margin-top: 0.5rem;
+    }
   }
 }
