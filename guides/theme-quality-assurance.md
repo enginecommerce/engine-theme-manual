@@ -30,7 +30,7 @@ Much of this testing and QA process can be automated. That which can be tested s
 
 These tests should be verified and ran in the following browsing environments or size/widths:
 
-##### Desktop
+### Desktop
 
 * Windows
   * Firefox 60+
@@ -44,7 +44,7 @@ These tests should be verified and ran in the following browsing environments or
   * Firefox 60+
   * Opera 53+
 
-##### Tablet
+### Tablet
 
 * Android
   * Current Galaxy
@@ -53,7 +53,7 @@ These tests should be verified and ran in the following browsing environments or
   * Current iPad Pro
   * Current iPad
 
-##### Mobile
+### Mobile
 
 * Android
   * Current Galaxy
