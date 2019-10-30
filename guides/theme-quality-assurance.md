@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Theme Quality Assurance
-subhead: Ensure fidelity and quality in any theme produced for Engine clients
+subhead: Prior to launching any ecommerce site, review this list and verify the site is up to Engine standards.
 has_children: false
 parent: Guides
 nav_order: 5
@@ -47,6 +47,7 @@ To maximize ecommerce conversion rates, verify these tests in the following brow
   * Opera 53+
 
 ### Tablet
+{:.no_toc}
 
 * Android
   * Current Galaxy
@@ -56,242 +57,299 @@ To maximize ecommerce conversion rates, verify these tests in the following brow
   * Current iPad
 
 ### Mobile
+{:.no_toc}
 
 * Android
-  * Current Galaxy
-  * Current Pixel
-  * Marketshare Winner
+  * A currently-leading Samsung Galaxy phone
+  * A currently-leading Google Pixel phone
 * iOS
-  * Current Large
-  * Current Small
-  * Marketshare Winner
+  * A currently-leading large iPhone
+  * A currently-leading small iPhone
+
+*Note: the needs of every client are unique, so thoroughly research and test the environments used most by their target customers in addition to those above.*
 
 ---
 
 ## Theme Sections
 
-### Homepage/Overall
+Verify each of the following stories are true:
 
-* Homepage is responsive and behaves normally and beautifully at phone, tablet and desktop widths. Measure at varying heights and widths. View window should not obscure any tap targets.
-* Homepage products link properly to their products
-* Homepage navigation is present and consistent throughout the site
-* Client’s brand colors are present and consistent throughout the site
-* Typography is branded and in client’s choice of brand font
-* Social, Meta tags and SEO tags are present and well formed
-* Pixels are present and firing (page view, lead if mail capture)
-* Google Analytics is present and tracking
-* Tap/Click targets are large enough to be clicked properly
-* Body copy is engaging, present and branded to the client
-* Animations are present, but lightweight and functional (enhance, don’t rely)
-* Where Javascript and animation has been deemed necessary, an elegant & workable fallback is offered to support legacy browsers.
+### Home Page/Overall
+{:.no_toc}
+
+* Home page should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
+* Products visible on the Home page should link to product detail pages
+* Home page navigation should be present, usable, and consistent throughout the site
+* Client’s brand colors should be ubiquitous and consistently accurate throughout the site
+* Typography should be legible and styled in a typeface representative of the client’s brand
+* Meta data and other social and SEO structures should be present and well-formed
+* Tracking scripts should track views of the home page correctly
+* Home page tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Body copy should be engaging, grammatically correct, and consistent with client's brand message
+* Animations and JavaScript UX enhancements should be lightweight, easy to understand, and should fail gracefully in both incompatible and compatible browsers – use them to enhance, but don’t rely on them
 
 ### Navigation
+{:.no_toc}
 
-* Navigation is responsive and allows for site traversal on mobile and desktop
-* Navigation is clear and links are well formed
-* Navigation leads to the expected locations
-* Navigation hover angles follow Amazon hover convention if mega-menu
-* Tap/Click targets are large enough to be clicked properly
+* Navigation should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
+* Navigation should be present, usable, and consistent throughout the site
+* Navigation tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Navigation should be clear and legible
+* Navigation links should be well-formed and should lead to the expected locations
+* Mega-menu navigation hover angles should follow Amazon's mega-menu convention
 
 ### Footer
+{:.no_toc}
 
-* Footer behaves properly on mobile & desktop
-* Social Links are present, branded and functioning
-* Footer links are well formed
-* Footer has copyright present and some form of trust enhancer
-* Tap/Click targets are large enough to be clicked properly
-* Footer links include refs to Privacy Policy and T&C
+* Footer elements should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
+* Footer links should be well-formed and should lead to the expected locations
+* Footer should contain a copyright notice
+* Footer should contain a trust enhancer element, e.g. a link to a money-back guarantee, a shipping policy, a physical store address, etc.
+* Footer tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Footer should include links to the site Privacy Policy and Terms and Conditions pages
 
 ### Collection
+{:.no_toc}
 
-* Collection page is responsive and behaves normally and beautifully at phone, tablet and desktop widths. Measure at varying heights and widths. View window should not obscure any tap targets.
-* Filtering capabilities work across devices and are friendly to interact with
-* Breadcrumbs (if selected are present and functioning)
-* Social, Meta tags and SEO tags are present and well formed
-* Pixels are present and firing (category view, page view)
-* Products can be sorted
-* Products respect sorting in admin
-* Products link to correct products
-* Tap/Click targets are large enough to be clicked properly
-* When a new product is created and tagged with a collection, it shows up in that collection properly
+* Collection pages should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
+* Collection filtering options should be friendly to use and behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
+* Collection breadcrumb links should be present, correct, and tappable/clickable (when selected)
+* Meta data and other social and SEO structures present on the page should properly describe the present view
+* Tracking scripts should track the present collection view correctly
+* Collection products should respect the sorting preferences set via the admin
+* Products shown on a collection page should link to the correct product detail view when tapped/clicked
+* Collection page tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* When a product is tagged with a collection, that product should be shown on the collection page
 
-### Product
+### Product Detail
+{:.no_toc}
 
-* Product page is responsive and  normally and beautifully at phone, tablet and desktop widths. Measure at varying heights and widths. View window should not obscure any tap targets.
-* Social, Meta tags and SEO tags are present and well formed
-* URLs are canonicalized to prevent duplicate content
-* Pixels are present and firing (page view, add to cart, view product)
-* Add to Cart button is present above the fold
-* Product Title is present and in an H1
-* Product descriptions are present
-* Product descriptions are robust and customized to the client’s branding
-* Breadcrumbs (if selected) are present and functioning
-* Product reviews (or alternative) are present
-* Size/Option type variant selectors are functioning and add the proper item to cart
-* Option type is presented before adding to cart
-* Quantity input is properly functioning when adding to cart
-* Error is presented when something out-of-stock is added to cart
-* Add-to-cart interstitial is firing
-* Cart count in header is changing based off what is added to cart
-* Spinner(loading) is presented if add-to-cart AJAX request takes long enough
-* Tap/Click targets are large enough to be clicked properly on desktop, tablet & mobile
-* Social CTAs attribute back to brand’s social channels (mention brand, via brand, etc)
-* Newly created products retain all of the above information and do not have to be customized on a product-by-product page basis
+* Product detail pages should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
+* Product breadcrumb links should be present, correct, and tappable/clickable (when selected)
+* Meta data and other social and SEO structures present on the page should properly describe the present product detail view
+* Canonical URL meta data should be present and should prevent duplicate content
+* "Add to Cart" button should be visible on page load without scrolling
+* Tracking scripts should track the present product detail view correctly
+* Tracking scripts should track an add-to-cart action correctly
+* Product Title should present and in an H1
+* Product description should be present
+* Product description should be robust and should reflect the client’s brand message
+* Product reviews (or suitable alternatives) should be present
+* Product variant selectors should function as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
+* When a product variant is selected, the proper variant/option SKU should be added to cart
+* Option type should be presented before adding to cart
+* When a product quantity is specified, the proper quantity should be added to cart
+* When an out-of-stock variant is added to cart, an error message should be presented
+* When a product is added to cart, the user should receive confirmation of success while still on the product detail view
+* When a product is added to cart, the cart total should accurately reflect the number of products currently in the cart
+* When a product is added to cart and the server takes an excessive amount of time, a loading indicator should be displayed
+* Collection page tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Social links and features should be associated with the brand’s social channels and handles, i.e., should mention brand social handle, correct social URL, etc.
+* Theme product detail views should be consistent across all products and should not have to be customized product-by-product
+
+#### Product Reviews
+{:.no_toc}
+
+* Product detail views should have review stars and quotes
+* Product detail views should only show reviews for the product featured on the current view
 
 ### Cart
+{:.no_toc}
 
-* Cart pages are responsive and normally and beautifully at phone, tablet and desktop widths. Measure at varying heights and widths. View window should not obscure any tap targets.
-* All cart items are properly displayed based off of what was added to cart
-* Update button is functioning properly, especially when quantity is changed in cart for particular item
-* Remove item is functioning properly
-* Active promotions are able to be added to cart, presenting promotion name and amount along with updated subtotal
-* Promotion errors are firing
-* Subtotal is properly displaying amount
-* Checkout button directs to correct checkout step
-* If present, a hover-cart works properly and offers an elegant non-javascript fallback
-* Hover cart allows for modification of items in cart
-* Cart offers discount code presenter, discount code error messages are displayed
-* Error message is displayed when trying to checkout with empty cart
-* Social, Meta tags and SEO tags are present and well formed
-* Pixels are present and firing (add to cart, cart, checkout started)
-* Checkout CTA is large and prominent
-* Tap/Click targets are large enough to be clicked properly
+* Cart view should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
+* Cart view should display all items added to cart
+* When cart item quantity is changed, the update button should behave as expected
+* The remove item button should function properly
+* Active promotions should be displayed in the cart and the cart total should show their effect
+* When a promotion is active in the cart, the promotion name and discount should be displayed
+* When a promotion is unable to be used, an error message should explain why
+* Cart subtotal should display the correct subtotal amount
+* When a cart modal is part of the theme, the cart modal should display properly and fail gracefully in target browsers
+* When a cart modal is part of the theme, the cart modal should allow the user to modify items in their cart
+* When the checkout button is tapped/clicked, the user is directed to the first incomplete checkout step
+* When a user deletes all items from their cart, the cart should display no items
+* When a user attempts to proceed to checkout with an empty cart, the cart should display an error message and should not redirect to checkout
+* Tracking scripts should track the cart view correctly
+* Tracking scripts should track an item removed from the cart correctly
+* Tracking scripts should track a discount added to the cart correctly
+* The checkout call-to-action button should be prominent and should be visible without scrolling
+* Cart tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 
-### Users
+### Shopper-Users
+{:.no_toc}
 
-* User can login
-* User can sign up
-* User can access account and logout
-* User can edit information email and password
-* User is presented with errors when improperly completing login, signup and editing account information
-* User is presented with success messages when properly completing login, signup and editing account information
-* User is presented with success message when logging out
-* User can create via email link after checkout, presenting them with a password recovery page
-* User can recover password via password reset form
-* User is redirected to unauthorized page when trying to access unauthorized information such as someone else’s order
+* Shopper-user should be able to log in
+* Shopper-user should be able to sign up
+* Shopper-user should be able to access account
+* Shopper-user should be able to log out
+* Shopper-user should be able to edit information, email, and password
+* When a Shopper-user performs an unsuccessful sign up, log in, or account information submit attempt, they should be presented with error messages that are clear, concise, and accessible to a 5th-grade reading level
+* When a Shopper-user performs an successful sign up, log in, log out, or account information submit attempt, they should be presented with a clear success message
+* A guest shopper-user should be able create an account with a password via an emailed link after checkout
+* A Shopper-user should be able to reset their password via a password reset form
+* When a shopper-user attempts to view another user's order status, they should be shown an error
 
 ### Checkout
+{:.no_toc}
 
-* Checkout flow itself is responsive and normally and beautifully at phone, tablet and desktop widths. Measure at varying heights and widths. View window should not obscure any tap targets.
-* Checkout follows established one-page or few-page conventions
-* Payment methods are selectable
-* Helpful error messages are present throughout
-* Error messages are field-level and instruct in clear, concise, 5th grade helpful ways
-* Confirm Order CTA is large and prominent
-* Tap/Click targets are large enough to be clicked properly
-* Pixels are present and firing (checkout, purchase)
+* Checkout view should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
+* A shopper should be able to checkout on a single page
+* A shopper should be able to select from multiple methods of payment
+* When a shopper commits an error, helpful error messages should be displayed
+* When a shopper commits an error in a form field an error message should be displayed near the erroneous form field
+* Error messages should be clear, concise, and accessible to a 5th-grade reading level
+* The confirm order button should appear large, prominent, legible, and highly contrasted against its surroundings
+* The confirm order button should be visible to a desktop resolution of 768 pixels high
+* Tracking scripts should correctly track each checkout step performed by the shopper
+* Tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 
-### Thank You
+### Order Completion
+{:.no_toc}
 
-* Thank You page is responsive and behaves normally and beautifully at phone, tablet and desktop widths. Measure at varying heights and widths
-* Thank You page communicates order, order recap and summary clearly and in large text
-* Thank You page offers CTA to contact brand if order changes are needed
-* Pixels are present and firing (purchase, thank you)
-* Tap/Click targets are large enough to be clicked properly
-* Social Share CTAs function are attribute the brand (even share cart option, if chosen)
+* Order completion view should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
+* The order number, order line items, and summary should be displayed clearly and in a large font
+* A call to action should be prominently displayed for making order changes
+* Tracking scripts should correctly track completed purchases and views of the order detail
+* Subsequent visits to the order detail view should not be tracked as additionally completed purchases
+* Tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Social links and features should be associated with the brand’s social channels and handles, i.e., should mention brand social handle, correct social URL, etc.
 
 ### Blog
+{:.no_toc}
 
-* Blog page is responsive and behaves normally at phone, tablet and desktop widths. Measure at varying heights and widths
-* Social, Meta tags and SEO tags are present and well formed
-* Blog posts are ordered properly w/ correct author attribution
-* Ability to load more or engage with more content within the blog
-* Pixels are present and firing (page view, lead)
-* Tap/Click targets are large enough to be clicked properly
-* New blog articles posted appear at top of the content directory (reverse time sorted)
+* Blog index and article views should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
+* Meta data and other social and SEO structures present on the page should properly describe the present view
+* Blog posts should be ordered properly, with new blog articles at top of index pages
+* Blog posts should attribute the correct author
+* The end of blog posts should link to additional, related content
+* Tracking scripts should correctly track blog articles viewed and indices viewed
+* Tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 
 ### Article/Content
+{:.no_toc}
 
-* Content pages are responsive and behaves normally at phone, tablet and desktop widths. Measure at varying heights and widths
-* Content text is large, readable and SEO optimized
-* Lifestyle tagged images have styled modals that are shoppable and add to cart
-* Social, Meta tags and SEO tags are present and well formed
-* Pixels are present and firing (page view, lead)
-* Tap/Click targets are large enough to be clicked properly
+* Blog article views should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
+* Content text should be large, readable and SEO optimized
+* When a visitor clicks a tagged lifestyle image, a modal should be presented that allows a user to add products to their cart
+* When a visitor clicks to add a product to their cart from a lifestyle image modal, the correct variant should be added to their cart
+* Meta data and other social and SEO structures present on the page should properly describe the present view
+* Tracking scripts should correctly track blog articles viewed
+* Tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 
-### CMS
+### CMS Pages
+{:.no_toc}
 
-* CMS pages are responsive and behaves normally at phone, tablet and desktop widths. Measure at varying heights and widths
-* Social, Meta tags and SEO tags are present and well formed
-* Pixels are present and firing (page view, lead)
-* Tap/Click targets are large enough to be clicked properly
+* Page views should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
+* Meta data and other social and SEO structures present on the page should properly describe the present view
+* Tracking scripts should correctly track blog articles viewed
+* Tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 
 ### Transactional Email
+{:.no_toc}
 
-* Transactional Templates are branded properly
-* Transactional Templates come from the proper email address
-* Transactional Templates use proper imagery and body copy
-* Social Share CTAs function are attribute the brand (even share cart option, if chosen)
-* Transactional Emails contain products
-* Transactional emails contain product links
+* The client’s brand colors should be ubiquitous and consistently presented in transactional emails
+* The from address of transactional emails should be the intended email address
+* Transactional emails received should have the intended imagery and body copy
+* Social links and features should be associated with the brand’s social channels and handles, i.e., should mention brand social handle, correct social URL, etc.
+* Transactional emails should contain linked products
+* Product links should navigate to the indented product when tapped/clicked
 
 ### Campaign Email
+{:.no_toc}
 
-* Initial Campaign Template is branded
-* Campaign Templates come from the proper email address
-* Campaign Templates use proper imagery and body copy
-* Social Share CTAs function are attribute the brand (even share cart option, if chosen)
-
-### Reviews
-
-* Ensure that stars are present on product pages
-* Ensure that review snippets are located on the various areas that the theme mocks designate
-* Ensure that products only show reviews for the products that are present
+* The client’s brand colors should be ubiquitous and consistently presented in campaign emails
+* The from address of campaign emails should be the intended email address
+* Campaign emails received should have the intended imagery and body copy
+* Social links and features should be associated with the brand’s social channels and handles, i.e., should mention brand social handle, correct social URL, etc.
 
 ---
 
 ## Simulated Shopping Environment
 
-A portion of the QA process should be simulating a shopping and browsing environment for a typical shopper. Through each of these tested events, there should be no console errors, no 404s and no site breaks. The site should function as normal and behave in a way that accomplishes each user’s task. The user should be able to accomplish these tasks without refreshing, getting an error or having to stop to ask questions. Each of these events should be unblemished by long load times or missing/late loading elements. All current data points towards aiming for a sub 3 second load time for all pages, mobile and desktop. Optimal load times for conversion range between 1 and 2.7 seconds.
+A portion of the QA process should mimic a shopping and browsing session for a typical shopper. There should be no console errors, no 404s and no feature failures. The site should behave as expected to ensure a completed shopping session.
+
+The user should be able to accomplish these tasks without refreshing, receiving an error, or having to stop to ask questions. Each of these events should be unblemished by long load times or missing/late loading elements. All current data points towards aiming for a sub 3 second load time for all pages, mobile and desktop. Optimal load times for conversion range between 1 and 2.7 seconds.
 
 > These impacts were felt even on tablets and mobile, with mobile being the most affected by delays. For mobile users, the optimal load time – which correlated to a 14.1% bounce rate – was 700 milliseconds. At 1.7 seconds, bounce rate was 21% – representing an increase of almost 50%. At 2.7 seconds, the bounce rate was almost 29% – representing a 103% increase.
+>
+> <cite><a target="_blank" href="https://www.akamai.com/us/en/multimedia/documents/report/akamai-state-of-online-retail-performance-spring-2017.pdf">The State of Online Retail Performance, Spring 2017, Akamai</a></cite>
 
 In addition to these common flows working, we should verify the presence of the Klaviyo or Engine actions occurring and appearing in the Klaviyo or Engine timeline.
 
-### Simulations to Run:
+### Simulations to Run
+{:.no_toc}
 
+#### Email Sign up
+{:.no_toc}
 
-#### Email Signup
-This simulation should be a landing on a page on the site which has an email signup. The user should sign up and verify that they are cookied via Klaviyo or the Engine Cookie.
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by an email signup action. On a site page with an email signup form (i.e. a popup, an on-page form, etc.), the user should submit their email address and should verify that their browser has been successfully cookied.
 
-#### Bounce Browse
-This behavior should be a landing on the homepage, not interacting with any links and then leaving the site. Verify that the On Site event fires.
+#### Bounce
+{:.no_toc}
 
-#### Content Browse
-This behavior should be a landing on the homepage, navigating to a piece of content, interacting and then leaving. Verify that the Content View event fires.
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit any site page for the first time, not interact with any links or site features, and then leave the site before taking any other action. An admin should verify that a site visit has been recorded.
 
-#### Shop + Browse
-This simulation should be the user taking the actions of landing on the homepage, going to a collections page, then visiting a product page. Verify that the Collections View event fires. Verify that the Product View event fires.
+#### Browse Content
+{:.no_toc}
 
-#### Shop Category Identification
-This simulation should be the user shopping the homepage, finding a category and then navigating to it. The shopper should view/scroll on the category page only. The shopper should then bounce before viewing a product. Verify that the Collection View event fires.
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit any site page for the first time, navigate to a piece of CMS-managed content, interact with the page, and then leave the site before taking any other action. An admin should verify that a Content View event has been recorded.
+
+#### Browse Product
+{:.no_toc}
+
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit any site page for the first time, navigate to a product collection page, navigate to a product page, and then leave the site before taking any other action. An admin should verify that a Product View event has been recorded.
+
+#### Browse Category
+{:.no_toc}
+
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit any site page for the first time, navigate to a product category page, and then leave the site before taking any other action. An admin should verify that a Collection View event has been recorded.
 
 #### Shop Item Identification
-This simulation should be the user shopping the homepage, finding a category and then navigating to it. The shopper should then navigate to an item and view that item, but not interact on the item page. Verify that the Product View event fires.
+{:.no_toc}
+
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit any site page for the first time, navigate to a product category page, navigate to a product detail view, and then leave the site before taking any other action. An admin should verify that a Product View event has been recorded.
 
 #### Add to Cart
-This simulation should be the user shopping the homepage, finding a category and then navigating to it. The shopper should then navigate to an item and view that item. The shopper should then add the item to cart. Visit the cart to verify the item has been added and then leave the site. Verify that the Add-to-Cart event fires.
+{:.no_toc}
+
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit a product detail view, add the product to their cart, visit the cart to verify the item has been added, and then leave the site before taking any other action. An admin should verify that a Product Add-to-Cart event has been recorded.
 
 #### Add to Cart (Out of Stock Variant)
-This simulation should be the user shopping the homepage, finding a category and then navigating to it. The shopper should then navigate to an item and view that item. The shopper should intentionally attempt to add an item that is out of stock to cart. Verify the presence of a branded error message and then bounce from the site. Verify that the Out-of-Stock event fires.
+{:.no_toc}
+
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit a product detail view, intentionally attempt to add an out-of-stock variant selection to their cart, verify that they have been alerted that the item is out-of-stock, and then leave the site before taking any other action. An admin should verify that a Product Out-of-Stock event has been recorded.
 
 #### Add to Cart Subscription (If Present)
-This simulation should be the user shopping the homepage, finding a category and then navigating to it. The shopper should then navigate to an item that can be subscribed to and view that item. The shopper should then add that item to cart. Visit the cart to verify the item has been added and then leave the site. Verify that the Add-to-Cart event fires.
+{:.no_toc}
+
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit a subscribable product detail view, add the subscription to their cart, visit the cart to verify the item has been added, and then leave the site before taking any other action. An admin should verify that a Product Add-to-Cart event has been recorded.
 
 #### Remove From Cart
-This simulation should be the user shopping the homepage, finding a category and then navigating to it. The shopper should then navigate to an item and view that item. The shopper should then add the item to cart. Visit the cart to verify the item has been added and then remove the item from your cart. Verify that the Add-to-Cart event flow is not triggered.
+{:.no_toc}
+
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit a subscribable product detail view, add the subscription to their cart, visit the cart to verify the item has been added, remove the product from their cart, and then leave the site before taking any other action. An admin should verify that a Add-to-Cart email event sequence has not been triggered.
 
 #### Begin/Abandon Checkout
-This simulation should be the user shopping the homepage, finding a category and then navigating to it. The shopper should then navigate to a product and view that item. The shopper should then add the item to cart. The shopper should then continue on to checkout and enter their information in. They should then bounce from the site. Verify that the Abandoned Checkout event fires.
+{:.no_toc}
+
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit a product detail view, add the product to their cart, visit the cart to verify the item has been added, proceed to checkout, enter their information into the form without completing checkout, and then leave the site before taking any other action. An admin should verify that an Abandoned Checkout event has been recorded.
 
 #### Begin Checkout (Invalid Address)
-This simulation should be the user shopping the homepage, finding a category and then navigating to it. The shopper should then navigate to a product and view that item. The shopper should then add the item to cart. The shopper should then continue on to checkout and enter their information in. They should enter a bogus address or bad information and attempt to continue checkout. Verify presence of errors. Verify that the Abandoned Checkout event fires.
+{:.no_toc}
+
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit a product detail view, add the product to their cart, visit the cart to verify the item has been added, proceed to checkout, enter address information with invalid syntax into the form, and attempt to complete checkout. The QA user should verify they have been notified of errors and then leave the site before taking any other action. An admin should verify that an Abandoned Checkout event has been recorded.
 
 #### Begin Checkout (Invalid Credit Card)
-This simulation should be the user shopping the homepage, finding a category and then navigating to it. The shopper should then navigate to a product and view that item. The shopper should then add the item to cart. The shopper should then continue on to checkout and enter their information in. They should enter correct address but bad credit card information and attempt to continue checkout. Verify presence of errors. Verify that the Abandoned Cart event fires.
+{:.no_toc}
+
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit a product detail view, add the product to their cart, visit the cart to verify the item has been added, proceed to checkout, enter invalid credit card information into the form, and attempt to complete checkout. The QA user should verify they have been notified of errors and then leave the site before taking any other action. An admin should verify that an Abandoned Checkout event has been recorded.
 
 #### Complete Checkout
-This simulation should be the user shopping the homepage, finding a category and then navigating to it. The shopper should then navigate to a product and view that item. The shopper should then add the item to cart. The shopper should then continue on to checkout and enter their information in. They should enter correct address and correct credit card information and attempt to continue checkout. Verify completion of order and thank you page. Verify that the Abandoned Cart event flow does not trigger.
+{:.no_toc}
+
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit a product detail view, add the product to their cart, visit the cart to verify the item has been added, proceed to checkout, enter valid address and payment information into the form, and attempt to complete checkout. The QA user should verify that no error notifications are present. An admin should verify that a Checkout Completion event has been recorded and that an Abandoned Cart email has not been triggered.
 
 #### Return Order
-Pending the success of the previous task, the shopper should attempt to return one of their orders through the web returns interface. Verify that the Post-Purchase event flow is triggered and ready.
+{:.no_toc}
+
+After the success of the previous task, the shopper should attempt to return one of their orders through the web returns interface. An admin user should verify that the Post-Purchase event flow is triggered and ready.
