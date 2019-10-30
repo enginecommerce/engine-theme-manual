@@ -10,27 +10,29 @@ permalink: /guides/theme-qa/
 
 {% include page_header.html %}
 
-Prior to launch, walk through this list to verify the site is up to Engine standards.
+By following these guidelines, theme builders can ensure their customers receive the world’s best eCommerce experience on the Engine platform.
 
-By following these guidelines, any theme builder should be able to ensure the world’s best eCommerce site experience.
+[This document is open-source]({{ site.repo_url }}) and is built to be expanded. By continually revising this document, we will ensure that problems are never encountered more than once. If you encounter problems, please [open an issue]({{ site.repo_issues_url }}) or [make a contribution]({{ site.repo_url }}).
 
-This document is open-source and is built to be expanded upon. If we run into trouble with a certain area, a new task will be added to ensure it doesn’t happen again.
+Much of this test and QA process can be automated. However, there is great value in human experience, so we recommend a **real** human being verify all final quality tests before launch.
 
-Much of this testing and QA process can be automated. That which can be tested should be. However, there is extreme value in the human eye and all final tests should be done and verified by a **real** human being.
+---
 
 ##### Table of Contents
 {:.no_toc}
 
 * An unordered list to be replaced with the ToC, excluding the "##### Table of Contents" from above
+{:.no_toc}
 {:toc levels=1}
 
 ---
 
 ## Testing Environments
 
-These tests should be verified and ran in the following browsing environments or size/widths:
+To maximize ecommerce conversion rates, verify these tests in the following browser environments:
 
 ### Desktop
+{:.no_toc}
 
 * Windows
   * Firefox 60+
