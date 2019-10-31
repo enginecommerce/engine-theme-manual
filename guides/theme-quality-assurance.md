@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Theme Quality Assurance
-subhead: Prior to launching any ecommerce site, review this list and verify the site is up to Engine standards.
+subhead: Prior to launching any eCommerce site, review this list and verify the site is up to Engine standards.
 has_children: false
 parent: Guides
 nav_order: 5
@@ -29,7 +29,7 @@ Much of this test and QA process can be automated. However, there is great value
 
 ## Testing Environments
 
-To maximize ecommerce conversion rates, verify these tests in the following browser environments:
+To maximize eCommerce conversion rates, verify these tests in the following browser environments:
 
 ### Desktop
 {:.no_toc}
@@ -72,19 +72,19 @@ To maximize ecommerce conversion rates, verify these tests in the following brow
 
 ## Theme Sections
 
-Verify each of the following stories are true:
+Verify each of the following stories is true:
 
 ### Home Page/Overall
 {:.no_toc}
 
 * Home page should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
-* Products visible on the Home page should link to product detail pages
+* Products visible on the home page should link to product detail pages
 * Home page navigation should be present, usable, and consistent throughout the site
 * Client’s brand colors should be ubiquitous and consistently accurate throughout the site
 * Typography should be legible and styled in a typeface representative of the client’s brand
-* Meta data and other social and SEO structures should be present and well-formed
+* Metadata and other social and SEO structures should be present and well-formed
 * Tracking scripts should track views of the home page correctly
-* Home page tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Home page tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 * Body copy should be engaging, grammatically correct, and consistent with client's brand message
 * Animations and JavaScript UX enhancements should be lightweight, easy to understand, and should fail gracefully in both incompatible and compatible browsers – use them to enhance, but don’t rely on them
 
@@ -93,7 +93,7 @@ Verify each of the following stories are true:
 
 * Navigation should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
 * Navigation should be present, usable, and consistent throughout the site
-* Navigation tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Navigation tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 * Navigation should be clear and legible
 * Navigation links should be well-formed and should lead to the expected locations
 * Mega-menu navigation hover angles should follow Amazon's mega-menu convention
@@ -105,7 +105,7 @@ Verify each of the following stories are true:
 * Footer links should be well-formed and should lead to the expected locations
 * Footer should contain a copyright notice
 * Footer should contain a trust enhancer element, e.g. a link to a money-back guarantee, a shipping policy, a physical store address, etc.
-* Footer tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Footer tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 * Footer should include links to the site Privacy Policy and Terms and Conditions pages
 
 ### Collection
@@ -114,11 +114,11 @@ Verify each of the following stories are true:
 * Collection pages should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
 * Collection filtering options should be friendly to use and behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
 * Collection breadcrumb links should be present, correct, and tappable/clickable (when selected)
-* Meta data and other social and SEO structures present on the page should properly describe the present view
+* Metadata and other social and SEO structures present on the page should properly describe the present view
 * Tracking scripts should track the present collection view correctly
 * Collection products should respect the sorting preferences set via the admin
 * Products shown on a collection page should link to the correct product detail view when tapped/clicked
-* Collection page tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Collection page tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 * When a product is tagged with a collection, that product should be shown on the collection page
 
 ### Product Detail
@@ -126,12 +126,12 @@ Verify each of the following stories are true:
 
 * Product detail pages should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
 * Product breadcrumb links should be present, correct, and tappable/clickable (when selected)
-* Meta data and other social and SEO structures present on the page should properly describe the present product detail view
-* Canonical URL meta data should be present and should prevent duplicate content
+* Metadata and other social and SEO structures present on the page should properly describe the present product detail view
+* Canonical URL metadata should be present and should prevent duplicate content
 * "Add to Cart" button should be visible on page load without scrolling
 * Tracking scripts should track the present product detail view correctly
 * Tracking scripts should track an add-to-cart action correctly
-* Product Title should present and in an H1
+* Product title should present and in an H1
 * Product description should be present
 * Product description should be robust and should reflect the client’s brand message
 * Product reviews (or suitable alternatives) should be present
@@ -144,7 +144,7 @@ Verify each of the following stories are true:
 * When a product is added to cart, the cart total should accurately reflect the number of products currently in the cart
 * When a product is added to cart and the server takes an excessive amount of time, a loading indicator should be displayed
 * Collection page tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
-* Social links and features should be associated with the brand’s social channels and handles, i.e., should mention brand social handle, correct social URL, etc.
+* Social links and features should be associated with the brand’s social channels and handles, e.g. should mention brand social handle, correct social URL, etc.
 * Theme product detail views should be consistent across all products and should not have to be customized product-by-product
 
 #### Product Reviews
@@ -173,7 +173,7 @@ Verify each of the following stories are true:
 * Tracking scripts should track an item removed from the cart correctly
 * Tracking scripts should track a discount added to the cart correctly
 * The checkout call-to-action button should be prominent and should be visible without scrolling
-* Cart tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Cart tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 
 ### Shopper-Users
 {:.no_toc}
@@ -201,7 +201,7 @@ Verify each of the following stories are true:
 * The confirm order button should appear large, prominent, legible, and highly contrasted against its surroundings
 * The confirm order button should be visible to a desktop resolution of 768 pixels high
 * Tracking scripts should correctly track each checkout step performed by the shopper
-* Tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 
 ### Order Completion
 {:.no_toc}
@@ -211,19 +211,19 @@ Verify each of the following stories are true:
 * A call to action should be prominently displayed for making order changes
 * Tracking scripts should correctly track completed purchases and views of the order detail
 * Subsequent visits to the order detail view should not be tracked as additionally completed purchases
-* Tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 * Social links and features should be associated with the brand’s social channels and handles, i.e., should mention brand social handle, correct social URL, etc.
 
 ### Blog
 {:.no_toc}
 
 * Blog index and article views should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
-* Meta data and other social and SEO structures present on the page should properly describe the present view
+* Metadata and other social and SEO structures present on the page should properly describe the present view
 * Blog posts should be ordered properly, with new blog articles at top of index pages
 * Blog posts should attribute the correct author
 * The end of blog posts should link to additional, related content
 * Tracking scripts should correctly track blog articles viewed and indices viewed
-* Tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 
 ### Article/Content
 {:.no_toc}
@@ -232,17 +232,17 @@ Verify each of the following stories are true:
 * Content text should be large, readable and SEO optimized
 * When a visitor clicks a tagged lifestyle image, a modal should be presented that allows a user to add products to their cart
 * When a visitor clicks to add a product to their cart from a lifestyle image modal, the correct variant should be added to their cart
-* Meta data and other social and SEO structures present on the page should properly describe the present view
+* Metadata and other social and SEO structures present on the page should properly describe the present view
 * Tracking scripts should correctly track blog articles viewed
-* Tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 
 ### CMS Pages
 {:.no_toc}
 
 * Page views should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
-* Meta data and other social and SEO structures present on the page should properly describe the present view
+* Metadata and other social and SEO structures present on the page should properly describe the present view
 * Tracking scripts should correctly track blog articles viewed
-* Tap/click targets should visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
+* Tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 
 ### Transactional Email
 {:.no_toc}
