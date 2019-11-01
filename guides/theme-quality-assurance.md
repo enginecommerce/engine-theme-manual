@@ -178,15 +178,15 @@ Verify each of the following stories is true:
 ### Shopper-Users
 {:.no_toc}
 
-* Shopper-user should be able to log in
-* Shopper-user should be able to sign up
-* Shopper-user should be able to access account
-* Shopper-user should be able to log out
-* Shopper-user should be able to edit information, email, and password
-* When a Shopper-user performs an unsuccessful sign up, log in, or account information submit attempt, they should be presented with error messages that are clear, concise, and accessible to a 5th-grade reading level
-* When a Shopper-user performs an successful sign up, log in, log out, or account information submit attempt, they should be presented with a clear success message
+* A shopper-user should be able to log in
+* A shopper-user should be able to sign up
+* A shopper-user should be able to access account
+* A shopper-user should be able to log out
+* A shopper-user should be able to edit information, email, and password
+* When a shopper-user performs an unsuccessful sign up, log in, or account information submit attempt, they should be presented with error messages that are clear, concise, and accessible to a 5th-grade reading level
+* When a shopper-user performs a successful sign up, log in, log out, or account information submit attempt, they should be presented with a clear success message
 * A guest shopper-user should be able create an account with a password via an emailed link after checkout
-* A Shopper-user should be able to reset their password via a password reset form
+* A shopper-user should be able to reset their password via a password reset form
 * When a shopper-user attempts to view another user's order status, they should be shown an error
 
 ### Checkout
@@ -196,7 +196,7 @@ Verify each of the following stories is true:
 * A shopper should be able to checkout on a single page
 * A shopper should be able to select from multiple methods of payment
 * When a shopper commits an error, helpful error messages should be displayed
-* When a shopper commits an error in a form field an error message should be displayed near the erroneous form field
+* When a shopper commits an error in a form field, an error message should be displayed near the erroneous form field
 * Error messages should be clear, concise, and accessible to a 5th-grade reading level
 * The confirm order button should appear large, prominent, legible, and highly contrasted against its surroundings
 * The confirm order button should be visible to a desktop resolution of 768 pixels high
@@ -209,10 +209,10 @@ Verify each of the following stories is true:
 * Order completion view should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
 * The order number, order line items, and summary should be displayed clearly and in a large font
 * A call to action should be prominently displayed for making order changes
-* Tracking scripts should correctly track completed purchases and views of the order detail
-* Subsequent visits to the order detail view should not be tracked as additionally completed purchases
+* Tracking scripts should correctly track a completed purchase
+* When the completed purchase is tracked on the order detail view, a subsequent visit to the order detail view should not be tracked as an additionally completed purchase
 * Tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
-* Social links and features should be associated with the brand’s social channels and handles, i.e., should mention brand social handle, correct social URL, etc.
+* Social links and features should be associated with the brand’s social channels and handles, e.g. should mention brand social handle, correct social URL, etc.
 
 ### Blog
 {:.no_toc}
@@ -241,7 +241,7 @@ Verify each of the following stories is true:
 
 * Page views should be width-responsive and should behave as expected at phone (landscape and portrait), tablet (landscape and portrait), and desktop resolutions and aspect ratios
 * Metadata and other social and SEO structures present on the page should properly describe the present view
-* Tracking scripts should correctly track blog articles viewed
+* Tracking scripts should correctly track pages viewed
 * Tap/click targets should be visible, large enough to be tapped/clicked, and unobscured by the edges of the viewport window
 
 ### Transactional Email
@@ -250,7 +250,7 @@ Verify each of the following stories is true:
 * The client’s brand colors should be ubiquitous and consistently presented in transactional emails
 * The from address of transactional emails should be the intended email address
 * Transactional emails received should have the intended imagery and body copy
-* Social links and features should be associated with the brand’s social channels and handles, i.e., should mention brand social handle, correct social URL, etc.
+* Social links and features should be associated with the brand’s social channels and handles, e.g. should mention brand social handle, correct social URL, etc.
 * Transactional emails should contain linked products
 * Product links should navigate to the indented product when tapped/clicked
 
@@ -260,7 +260,7 @@ Verify each of the following stories is true:
 * The client’s brand colors should be ubiquitous and consistently presented in campaign emails
 * The from address of campaign emails should be the intended email address
 * Campaign emails received should have the intended imagery and body copy
-* Social links and features should be associated with the brand’s social channels and handles, i.e., should mention brand social handle, correct social URL, etc.
+* Social links and features should be associated with the brand’s social channels and handles, e.g. should mention brand social handle, correct social URL, etc.
 
 ---
 
@@ -282,7 +282,7 @@ In addition to these common flows working, we should verify the presence of the 
 #### Email Sign up
 {:.no_toc}
 
-In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by an email signup action. On a site page with an email signup form (i.e. a popup, an on-page form, etc.), the user should submit their email address and should verify that their browser has been successfully cookied.
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by an email signup action. On a site page with an email signup form (e.g. a popup, an on-page form, etc.), the user should submit their email address and should verify that their browser has been successfully cookied.
 
 #### Bounce
 {:.no_toc}
@@ -317,7 +317,7 @@ In a new incognito window (or private browsing session, etc.), a user should ver
 #### Add to Cart (Out of Stock Variant)
 {:.no_toc}
 
-In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit a product detail view, intentionally attempt to add an out-of-stock variant selection to their cart, verify that they have been alerted that the item is out-of-stock, and then leave the site before taking any other action. An admin should verify that a Product Out-of-Stock event has been recorded.
+In a new incognito window (or private browsing session, etc.), a user should verify that they are not cookied by a user-identifying cookie. The user should visit a product detail view, intentionally attempt to add an out-of-stock variant selection to their cart, verify that they have been alerted that the item is not in stock, and then leave the site before taking any other action. An admin should verify that a Product Out-of-Stock event has been recorded.
 
 #### Add to Cart Subscription (If Present)
 {:.no_toc}
