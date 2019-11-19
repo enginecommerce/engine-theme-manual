@@ -27,6 +27,7 @@ permalink: /drops/product
 - taxons
 - gift_card?
 - gift_card
+- compare_at_price
 
 ### Drop Methods
 
@@ -205,9 +206,14 @@ Returns a Drop containing a product's variants.
 {17=># @attributes: ... }{% endraw %}
 ```
 
-#### compare_price_at
+#### compare_at_price
 
-Currently internal use only. {% comment %}We need to enforce strict QA on Liquid{% endcomment %}
+Returns a String containing the compare at price
+
+```
+{{ product.compare_at_price }}
+#=> "$39.99"
+```
 
 #### display_image_portrait_cropped_large_url
 
