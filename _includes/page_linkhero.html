@@ -1,0 +1,23 @@
+{% assign include_href = page.href %}
+{% assign include_title = page.title %}
+{% assign include_subhead = page.subhead %}
+
+{% if include.href %}
+  {% assign include_href = include.href %}
+{% endif %}
+
+{% if include.title %}
+  {% assign include_title = include.title %}
+{% endif %}
+
+{% if include.subhead %}
+  {% assign include_subhead = include.subhead %}
+{% endif %}
+
+<a href="{{ include_href }}" class="page-linkhero">
+  {% if include.icon %}
+    <i class="page-linkhero-icon {{ include.icon }}"></i>
+  {% endif %}
+  <h2 class="page-linkhero">{{ include_title }}</h2>
+  <p class="page-linkhero-subhead">{{ include_subhead }}</p>
+</a>

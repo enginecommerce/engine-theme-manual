@@ -10,6 +10,9 @@
 {% endif %}
 
 <header class="page-header-layout">
+  {% if include.icon %}
+    <i class="page-header-icon {{ include.icon }}"></i>
+  {% endif %}
   <h1 class="page-header">{{ include_title }}</h1>
   <p class="page-header-subhead">{{ include_subhead }}</p>
 </header>
