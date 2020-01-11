@@ -10,6 +10,15 @@ main {
   display: block;
 }
 
+.navigation-list-toggle.btn.btn-outline {
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.67);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.page-header {
+  background: transparent;
+}
 
 .page-header-layout {
   padding-right: 5em;
