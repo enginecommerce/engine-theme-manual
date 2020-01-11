@@ -7,8 +7,8 @@ nav_order: 0
 permalink: /
 ---
 
-[license_url]: https://github.com/enginecommerce/flight_manual/blob/master/LICENSE
-[code_of_conduct_link]: /flight_manual/engineering/guides/code-of-conduct.html
+[license_url]: https://github.com/enginecommerce/engine-theme-manual/blob/master/LICENSE
+[issues_url]: https://github.com/enginecommerce/engine-theme-manual/issues
 [engine_platform_link]: https://www.enginecommerce.com/platform/
 [engine_blog_link]: https://www.enginecommerce.com/blog/
 [engine_agencies_link]: https://www.enginecommerce.com/agency/
@@ -43,4 +43,4 @@ The Engine platform is designed for the eCommerce landscape of the 2020s. Built 
 
 ## Thanks
 
-This is [MIT-licensed][license_url], open source software that you may clone and modify for your own use, personal or professional. If you find a problem, please consider opening an issue or [making a contribution][code_of_conduct_link].
+This is [MIT-licensed][license_url], open source software that you may clone and modify for your own use, personal or professional. If you find a problem, please consider opening an issue or [making a contribution][issues_url].
