@@ -1,22 +1,34 @@
 ---
 layout: default
-title: Quick Start
-subhead: Quick start guide to editing your first theme for the Engine Ecommerce Platform.
-nav_order: 1
-has_children: false
-permalink: /quick-start/
+title: Theme Quick Start
+subhead: Launch a performant store in a hurry from a starter template with little customization
+nav_order: 2
+has_children: true
+has_toc: true
+permalink: /start/
 ---
 
 [building_blocks_theme_url]: https://github.com/enginecommerce/building-blocks-theme
 [building_blocks_theme_zip]: https://github.com/enginecommerce/building-blocks-theme/archive/master.zip
 [liquid_reference_url]: https://shopify.github.io/liquid/
 [liquid_drop_reference_link]: /liquid-drop-reference
+[agency_partners_url]: https://www.enginecommerce.com/agency/
+[scss_reference_docs_url]: https://sass-lang.com/documentation/syntax
 
-{% include page_header.html icon="fas fa-bolt" %}
+{% include page_header.html title="Engine Quick Start Theme Guide" icon="fas fa-bolt" %}
 
-# Clone, Copy, Paste, Profit
+## Guide Overview
+{:.no_toc}
 
-Follow these steps to publish your first site theme. We've created these tools to get you up and running as quickly as possible.
+***Before we begin, are you an agency partner? If not, you can still follow along with our open-source [Building Blocks theme][building_blocks_theme_url]; however this guide is meant to help partners with Sandbox access develop and launch sites quickly. If you're not already part of our free agency partner program, [reach out to us][agency_partners_url] to start developing and sharing revenue on the Engine Commerce Platform.***
+
+The Engine Commerce Platform allows you to launch an ecommerce store with robust marketing features without plugin soup. A basic understanding of Git, HTML, and Liquid is ideal.
+
+* An unordered list to be replaced with the Table of Contents
+{:.no_toc}
+{:toc}
+
+---
 
 ## Start With Building Blocks Theme
 
@@ -28,7 +40,7 @@ You can clone it with Git or [download a ZIP file][building_blocks_theme_zip].
 git clone https://github.com/enginecommerce/building-blocks-theme.git
 ```
 
-# About Theme Files and Directory Structures
+## About Theme Files and Directory Structures
 
 * All files are optional
 * when files are not present in the theme, the store site will use default templates.
@@ -70,6 +82,8 @@ Use the [Liquid template language][liquid_reference_url] to edit your Engine Sto
 Consult the [Liquid Drop Reference][liquid_drop_reference_link] of this guide to learn what object properties are available within templates
 
 ## Use SCSS over CSS
+
+Engine themes prefer SCSS over CSS (/*ahem/* because developers prefer SCSS over CSS)
 
 ## Upload Your Theme to Your Store
 

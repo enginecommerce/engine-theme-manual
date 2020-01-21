@@ -13,16 +13,28 @@ permalink: /
 [engine_blog_link]: https://www.enginecommerce.com/blog/
 [engine_agencies_link]: https://www.enginecommerce.com/agency/
 
-{% include page_header.html title="The Engine Theme Manual" subhead="Developer friendly guide to building awesome ecommerce themes" %}
+{% include page_header.html title="Engine Developer Resources" subhead="Developer friendly reference for building themes and extensions with the Engine Ecommerce Platform" %}
+
+<div class="page-pagehero">
+  <a href="/sandbox">
+    <h2>Get Started: Your Sandbox</h2>
+    <div class="page-pagehero-main">
+      <div class="page-pagehero-body">
+        <p class="">Agency partners and developers, get familiar with your sandbox server by following this introduction checklist.</p>
+      </div>
+      <div class="page-pagehero-cta">
+        <span class="btn">Get Started <i class="fas fa-caret-right"></i></span>
+      </div>
+    </div>
+  </a>
+</div>
 
 <div class="page-linkheroes">
-
-  {% include page_linkhero.html href="/quick-start" title="Quick Start Theme Guide" subhead="Launch a performant store in a hurry from a starter template with little customization" icon="fas fa-rocket" %}
+  {% include page_linkhero.html href="/start" title="Theme Quick Start" subhead="Launch a performant store in a hurry from a starter template with little customization" icon="fas fa-rocket" %}
 
   {% include page_linkhero.html href="/docs" title="Documentation" subhead="Reference documentation for the Liquid template language, Engine objects, and webhooks" icon="fas fa-code" %}
 
   {% include page_linkhero.html href="/guides" title="Guides" subhead="Step-by-step tutorials to develop and launch projects on the Engine Commerce Platform" icon="fas fa-lightbulb" %}
-
 </div>
 
 ## More Resources
